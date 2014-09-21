@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
       'bower_components/angular/angular.js',
       'bower_components/angular-classy/angular-classy.js',
-      'classy-on.js',
+      'classy-mixins.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'test/unit/*.js'
     ],
