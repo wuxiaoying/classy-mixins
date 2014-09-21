@@ -1,0 +1,16 @@
+{
+    "name": "classy-mixins",
+    "scripts": {
+        "start": "./node_modules/coffee-script/bin/coffee --compile classy-mixins.coffee",
+        "test": "./node_modules/karma/bin/karma start test/karma.conf.js"
+    },
+    "author": "Helen Wu",
+    "license": "MIT",
+    "devDependencies": {
+        "coffee-script": "^1.7.1",
+        "karma": "^0.12.17",
+        "karma-jasmine": "^0.1.5",
+        "karma-phantomjs-launcher": "^0.1.4",
+        "karma-chrome-launcher": "^0.1.4"
+    }
+}

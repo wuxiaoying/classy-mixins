@@ -1,4 +1,4 @@
-classy-mixins
-=============
+classy-on
+=========
 
-Mixins plugin for Angular Classy
+On event plugin for Angular Classy 
