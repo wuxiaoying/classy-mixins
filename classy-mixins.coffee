@@ -1,4 +1,4 @@
-﻿mixins_module = angular.module 'classy-mixins', ['classy-core']
+﻿mixins_module = angular.module 'classy-mixins', ['classy.core']
 
 ###
     TODO: Note that this does NOT get the mixin class dependencies as of now.
