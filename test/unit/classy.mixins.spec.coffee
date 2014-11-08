@@ -15,9 +15,10 @@ app.classy.controller
         @$.logs.push 'can fly'
         return
         
-    fly: ->
-        @$.logs.push 'fly'
-        return
+    methods:
+        fly: ->
+            @$.logs.push 'fly'
+            return
  
 app.classy.controller
     name: 'CatMixin'
@@ -29,9 +30,10 @@ app.classy.controller
         @$.logs.push 'can talk'
         return
         
-    talk: ->
-        @$.logs.push 'meow'
-        return
+    methods: 
+        talk: ->
+            @$.logs.push 'meow'
+            return
         
 app.classy.controller
     name: 'Animal'
